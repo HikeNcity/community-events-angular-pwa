@@ -5,15 +5,15 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('./homepage/homepage.module').then(m => m.HomepageModule)
+    loadChildren: () => import('./pages/homepage/homepage.module').then(m => m.HomepageModule)
   },
   {
     path: 'homepage',
-    loadChildren: () => import('./homepage/homepage.module').then(m => m.HomepageModule)
+    loadChildren: () => import('./pages/homepage/homepage.module').then(m => m.HomepageModule)
   },
   {
     path: 'event',
-    loadChildren: () => import('./event/event.module').then(m => m.EventModule)
+    loadChildren: () => import('./pages/event/event.module').then(m => m.EventModule)
   }
 ];
 
