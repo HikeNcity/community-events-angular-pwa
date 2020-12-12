@@ -1,27 +1,49 @@
-# CommunityEvents
+# CommunityEvents - Opensource Event Management app built with angular enabled PWA 🔥
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
 
-## Development server
+# 👉 Want to Contribute? ✨ 🔋
+follow these [Contribution Guidelines](https://github.com/thrashtechinfo/chatify/blob/main/Contributing.md)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# 👉 How to update your forked repo with our parent repo: 🔗
 
-## Code scaffolding
+## set Upstream with Parent:
+> git remote add upstream https://github.com/muhammadawaisshaikh/community-events-angular-pwa.git
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Fetch Forked Repo
+> git fetch upstream 
 
-## Build
+## Rebase your repo/branch with parent one
+> git rebase upstream/main
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## push the updated got changes with your repo/branch
+> git push origin main
 
-## Running unit tests
+# 👉 Angular CLI generate commands: 🛠
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Module Creation
+> ng g module auth --routing
 
-## Running end-to-end tests
+## Component Creation
+> ng g component auth
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Service Creation
+> ng g service auth
 
-## Further help
+# 👉 Contributors ✨ 🏆
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Thanks goes to these wonderful people:
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/muhammadawaisshaikh" rel="nofollow">
+          <img src="https://avatars2.githubusercontent.com/u/24633059?s=460&u=19555ad8fcd6f89b231927b19650d05193d257e0&v=4" width="100px;" alt="" style="max-width:100%; border-radius: 50%;"><br>
+          <sub><b>Muhammad Awais</b></sub><br>
+          <sub>@muhammadawaisshaikh</sub>
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
