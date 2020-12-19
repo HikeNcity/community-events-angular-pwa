@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
 
 # 👉 Want to Contribute? ✨ 🔋
-follow these [Contribution Guidelines](https://github.com/thrashtechinfo/chatify/blob/main/Contributing.md)
+follow these [Contribution Guidelines](https://github.com/muhammadawaisshaikh/community-events-angular-pwa/blob/main/Contributing.md)
 
 # 👉 How to update your forked repo with our parent repo: 🔗
 
