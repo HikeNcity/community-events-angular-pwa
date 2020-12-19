@@ -1,1 +1,77 @@
-<p>add-edit-event works!</p>
+<div class="site-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-lg-4">
+                <div class="site-section-heading" data-aos="fade-up">
+                    <h2>All Events</h2>
+                </div>
+            </div>
+            <div class="col-lg-6 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores
+                    necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.</p>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <input type="file" class="d-none" accept="image/*" #file>
+                        <a class="image-area" (click)="file.click()">
+                            <img *ngIf="!imageUploaded" src={{preview}}>
+                            <!-- <img *ngIf="imageUploaded" src={{loading}}> -->
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-8">
+                        <div class="row">
+                            <div class="col-12 form-group">
+                                <label>Event Title</label>
+                                <input type="text" class="form-control" placeholder="How To Develop Powerful Web & Mobile Apps" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-3 form-group">
+                                <label>Start Date</label>
+                                <input type="date" class="form-control" />
+                            </div>
+
+                            <div class="col-12 col-md-3 form-group">
+                                <label>Start Time</label>
+                                <input type="time" class="form-control" />
+                            </div>
+
+                            <div class="col-12 col-md-3 form-group">
+                                <label>End Date</label>
+                                <input type="date" class="form-control" />
+                            </div>
+
+                            <div class="col-12 col-md-3 form-group">
+                                <label>End Time</label>
+                                <input type="time" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 form-group">
+                                <label>Public Event URL</label>
+                                <input type="text" class="form-control" readonly />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-12 form-group">
+                <label>Location</label>
+                <input type="text" class="form-control" placeholder="3016 N US Highway 301, Ste 300, Tampa, FL 33619" />
+            </div>
+
+            <div class="col-12 form-group">
+                <label>HashTags</label>
+                <input type="text" class="form-control" placeholder="Angular, Typescript, Javascript (Comma Seprated)" />
+            </div>
+        </div>
+    </div>
+</div>

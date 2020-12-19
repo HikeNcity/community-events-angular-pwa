@@ -11,8 +11,8 @@ const routes: Routes = [
     component: AdminComponent,
     children: [
       { path: '', component: AllEventsComponent },
-      { path: '/all-events', component: AllEventsComponent },
-      { path: '/add-edit-event', component: AddEditEventComponent },
+      { path: 'all-events', component: AllEventsComponent },
+      { path: 'add-edit-event', component: AddEditEventComponent },
     ]
   }
 ];
